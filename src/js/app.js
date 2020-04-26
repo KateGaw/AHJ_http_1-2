@@ -1,6 +1,6 @@
 import moment from 'moment';
 
-const url = 'http://http-1-2.herokuapp.com/tickets';
+const url = 'https://http-1-2.herokuapp.com/tickets';
 
 const addButton = document.getElementById('add_btn');
 const modalTicket = document.querySelector('#modal_ticket');
