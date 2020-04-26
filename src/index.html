@@ -10,42 +10,42 @@
 
 <body>
     <div class="main_container" id="main_container">
-        <input type="button" class="add_btn btn" id="add_btn" value="Add" />
+        <input type="button" class="add_btn btn" id="add_btn" value="Добавить тикет" />
         <div class="tickets" id="tickets"></div>
     </div>
 
     <div class="modal modal_delete hidden" id="modal_delete">
-        <h3>Delete Ticket</h3>
-        <p>Are you sure?</p>
-        <input type="button" class="delete_btn btn" value="Delete" />
-        <input type="button" class="cancel_btn btn" value="Cancel" />
+        <h3>Удалить тикет</h3>
+        <p>Точно удалить этот тикет?</p>
+        <input type="button" class="delete_btn btn" value="Удалить" />
+        <input type="button" class="cancel_btn btn" value="Отмена" />
     </div>
 
     <form class="modal modal_ticket hidden" id="modal_ticket">
-        <h3>Ticket</h3>
+        <h3>Добавить тикет</h3>
         <div class="inputs" id="inputs">
-            <p>Name</p>
-            <input type="text" class="name_input inp" id="name_input" placeholder="put name here" required />
-            <p>Description</p>
-            <input type="text" class="desc_input inp" id="desc_input" placeholder="put desc here" />
+            <p>Название</p>
+            <input type="text" class="name_input inp" id="name_input" required />
+            <p>Описание</p>
+            <input type="text" class="desc_input inp" id="desc_input" />
         </div>
         <div class="modal_buttons">
-            <input type="button" class="submit_btn btn" id="submit_btn" value="Save" />
-            <input type="button" class="cancel_btn btn" value="Cancel" />
+            <input type="button" class="submit_btn btn" id="submit_btn" value="Сохранить" />
+            <input type="button" class="cancel_btn btn" value="Отменить" />
         </div>
     </form>
 
     <form class="modal modal_ticket modal_edit_ticket hidden" id="modal_edit_ticket">
-        <h3>EDIT Ticket</h3>
+        <h3>Редактировать тикет</h3>
         <div class="inputs" id="inputs">
-            <p>Name</p>
-            <input type="text" class="name_input inp" id="name_input_edit" placeholder="put name here" required />
-            <p>Description</p>
-            <input type="text" class="desc_input inp" id="desc_input_edit" placeholder="put desc here" />
+            <p>Название</p>
+            <input type="text" class="name_input inp" id="name_input_edit" required />
+            <p>Описание</p>
+            <input type="text" class="desc_input inp" id="desc_input_edit" />
         </div>
         <div class="modal_buttons">
-            <input type="button" class="submit_btn btn" id="edit_btn" value="Save" />
-            <input type="button" class="cancel_btn btn" value="Cancel" />
+            <input type="button" class="submit_btn btn" id="edit_btn" value="Сохранить" />
+            <input type="button" class="cancel_btn btn" value="Отменить" />
         </div>
     </form>
 </body>
